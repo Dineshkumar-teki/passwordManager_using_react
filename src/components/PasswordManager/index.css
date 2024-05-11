@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bgContainer {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.cardContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.headerSection {
+  padding: 1rem 0;
+}
+.applogo {
+  width: 180px;
+}
+.passwordGeneratedContainer,
+.passwordsDisplayContainer {
+  background-color: #5763a5;
+  border: 0 solid;
+  border-radius: 20px;
+  display: flex;
+}
+.passwordGeneratedContainer {
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+.passwordsDisplayContainer {
+  flex-direction: column;
+  padding: 3rem 2rem;
+  gap: 1rem;
+}
+.passwordmanagerImg {
+  width: 30%;
+  align-self: flex-end;
+}
+.formContainer {
+  width: 40%;
+  background-color: #454f84;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  border: 0 solid;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.formTitle {
+  color: white;
+  margin-bottom: 1rem;
+}
+.inputEle {
+  display: flex;
+}
+.inputEle > div,
+.inputEle > input {
+  background-color: white;
+  padding: 10px 12px;
+  outline: none;
+  border: 0 solid;
+}
+.inputEle > div > img {
+  width: 20px;
+}
+.inputEle > input {
+  flex-grow: 1;
+  border-radius: 0 8px 8px 0;
+}
+.inputEle > div {
+  border-radius: 8px 0 0 8px;
+  border-right: 1px solid #c3caea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AddBtn {
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 1.2rem;
+  align-self: flex-end;
+  border: 0 solid;
+  outline: none;
+  font-size: 18px;
+}
+.topSection {
+  display: flex;
+  justify-content: space-between;
+}
+.passwordCount {
+  display: flex;
+  gap: 0.5rem;
+  align-self: center;
+  font-size: 20px;
+  color: white;
+}
+.passwordCount h1 {
+  font-size: 25px;
+}
+.searchContainer {
+  align-self: center;
+}
+.counterContainer {
+  border: 1px solid white;
+  padding: 1px 10px;
+  border-radius: 10px;
+  align-self: center;
+}
+.middleSection {
+  align-self: flex-end;
+  display: flex;
+}
+.middleSection label {
+  font-size: 17px;
+  color: white;
+  margin-left: 0.3rem;
+}
+.nopasswords {
+  width: 30%;
+}
+.bottomSection {
+  display: grid;
+  place-items: center;
+  color: white;
+}
+.bottomSection p{
+  font-size: 28px;
+  margin-top: 1rem;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.checkbox {
+  border: 0 solid;
+  outline: none;
+}
+hr {
+  border: 1px solid #c3caea;
+}
